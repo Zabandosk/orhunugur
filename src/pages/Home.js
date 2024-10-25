@@ -8,36 +8,38 @@ const Home = () => {
     <Fragment>
 
         <div class="content">
-            Content Section
-        <h1>Orhun Uğur</h1>
-        <h2>Digital </h2> 
-        <h3>Heritage/Archive/Archaeology/Humanities</h3>
-        I love digital everything.
-    <br></br> 
-        I like how we can duplicate a copy of everything from the real world to digital world.
-        And likewise everything from the digital world to real world.
-        Thank you x, y, z axis.
-        <br></br> 
-        I like everything free, if possible, especially the education. 
-        Thank you accessible information sources, university datases, udemy classes And
-        a special thanks to random people who are willing to share their knowledge!
-        <br></br> 
-        I will be using this page to update my cv and thoughts through blogs and with recent links to other projects or collections i am working on.
-        <br></br> 
-    I love how it connects academia world wide.
-    I love how it helps preserving cultural and natural heritage and giving access to them people worldwide.
-    <br></br> 
-    I love how I can read, listen and see about peoples thoughts and discussions about any subject on social media platforms
-    <br></br> 
-    Even though there are many negativities
- 
-        Hopefully it has many updates.
-        Maşallah!
- 
+            
+            <h1>Home</h1>
+     
+<p> 
+Welcome User! 
+<br></br>
+Thanks for visiting my site. I have created this site to various reasons.
+<br></br>
+First of all, i see this place as a shop in the massive village of internet, in the middle of massive shopping malls running by big companies. 
+This is a small shop, where you can sit and drink your tea or coffee while sitting on a chair an look around.
+A heritage i want to build with my hands, hopefully preserve for future, i dont know how its going to be.
+<br></br>
+i want to write things and shared online with the world. i am a shy social media user. instead of them i have my own space to publish my thoughts.
+i want to use the <a href='/blog'>blog page</a> for this reason. 
+<br></br>
+i want to use this space for online testing platform. i am a self taught-developer. thus i make break a lot during my learning process.
+and of course i need a online space to test what i test (yes, lots of tests) in my local environment. it is possible to see bugs from time to time. in this cases i would tell you what i always tell to myself 
+'dont panic'. 
+<br></br>
+i want to use this place to link my other projects. i love learning by practising. e.g. my biggest passion these days is to develop my own heritage platform.
+i am developing my <a href='/diy-heritage'>DIY-Heritage</a> website. hopefully im thinking about new projects to add here.
+<br></br>
+I wish this space to create new conversations and possible collabration with people. I am very open for any thoughts about the website or any of the content within. 
+I am also open for job positions
+Reach me out if you have anything to say!
+</p>
     
-    <h1>Plan:</h1>
-    <h2>Sola yada tepeye navbar</h2>
-    <h2>Sayfaları belirle:CV, Projects, etc. Bunun için de incele farklı sayfaları. henriete ve jaironunki gibi</h2>
+    <h1>Tasks:</h1>
+complete basic pages:
+<li>about</li>
+<li>cv</li>
+<li>tarot</li>
         </div>
 
     </Fragment>

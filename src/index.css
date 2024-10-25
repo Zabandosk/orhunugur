@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #1e1c1c;
+  background-color: aliceblue;
   font-family: "M PLUS Code Latin", monospace;
   font-optical-sizing: auto;
   font-style: normal;
@@ -8,72 +8,60 @@ body {
     "wdth" 100;
 }
 
-.header {
-  background-color: rgb(131, 50, 50);
-  width: 100%; 
-  height: 15rem; 
+h4 {
+  letter-spacing: 1px;
 }
-
-.headerimg {
-  height: 15rem;
-  padding-left: 15rem;
-}
-
-.colorbox {
-  height: 50px;
-  width: 200px;
-  background-color: aliceblue;
-  display: flex;
-}
-
-.color1 {
-  background-color: black;
-  height: 50px;
-  width: 50px;
-}
-.color2 {
-  background-color: #3f3f3f;
-  position: relative;
-  height: 50px;
-  width: 50px;
-}
-.color3 {
-  background-color: #555;
-  height: 50px;
-  width: 50px;
-}
-.color4 {
-  background-color: rgb(131, 50, 50);
-  height: 50px;
-  width: 50px;
-}
-.color5 {
-  background-color:white;
-  height: 50px;
-  width: 50px;
+p {
+  letter-spacing: 1px;
+  line-height: 1.5rem;
 }
 
 .maincontent {
   display: flex;
   background-color: whitesmoke;
-
+  min-height: 100vh; 
 }
 
 .sidebar {
   width: 20%; 
   height: auto;
+  background-color: rgb(218, 201, 201);
+}
+.myname {
+  text-align: center;
 }
 
-ul {
+.myname a{
   list-style-type: none;
-  width: 15rem;
-  background-color: black;
+  font-style: normal;
+  text-decoration: none; 
+  color: black;
+}
+
+h3 {
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.navsocial ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-li a {
+i {
+  color: black;
+}
+
+.navpages ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navpages li a {
   display: block;
   padding: 1rem;
   margin: 0;
@@ -83,13 +71,16 @@ li a {
   width: 100%;
 }
 
-li:hover {
+.navpages li:hover {
    background-color: #555;
 }
-.content {
 
+
+
+/*************************CONTENT****************************/
+.content {
+  padding: 5rem;
   width: 70%;
-  
 }
 
 /**************************TAROT****************************/
@@ -124,14 +115,48 @@ li:hover {
 /**************************CV****************************/
 
 td, th {
-
   padding: 8px;
-  background-color: #1B1212;
 }
 
 th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #04AA6D;
+  background-color: rgb(218, 201, 201);
+}
+
+/*********************TEST********************/
+
+.colorbox {
+  height: 50px;
+  width: 200px;
+  background-color: aliceblue;
+  display: flex;
+}
+
+.color1 {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+}
+.color2 {
+  background-color: #3f3f3f;
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+.color3 {
+  background-color: #555;
+  height: 50px;
+  width: 50px;
+}
+.color4 {
+  background-color: rgb(131, 50, 50);
+  height: 50px;
+  width: 50px;
+}
+.color5 {
+  background-color:white;
+  height: 50px;
+  width: 50px;
 }
