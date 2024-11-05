@@ -1,11 +1,12 @@
 body {
   margin: 0;
-  background-color: aliceblue;
+  background-color: #1a1a1a;
   font-family: "M PLUS Code Latin", monospace;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    color: #e1e1e1;
 }
 
 p {
@@ -24,24 +25,26 @@ h3 {
 
 .maincontent {
   display: flex;
-  background-color: whitesmoke;
+ 
+  background-color: #000000;
   min-height: 100vh; 
 }
 
 .sidebar {
   width: 20%; 
   height: auto;
-  background-color: rgb(218, 201, 201);
+  background-color: #1f1f1f;
 }
 .myname {
   text-align: center;
+
 }
 
 .myname a{
   list-style-type: none;
   font-style: normal;
   text-decoration: none; 
-  color: black;
+  color: #f5f5f5;
 }
 
 
@@ -55,7 +58,7 @@ h3 {
 }
 
 i {
-  color: black;
+  color: #616161;
 }
 
 .navpages ul {
@@ -75,7 +78,7 @@ i {
 }
 
 .navpages li:hover {
-   background-color: #555;
+   background-color: #616161;
 }
 
 
