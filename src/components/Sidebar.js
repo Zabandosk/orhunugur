@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import imageSrc from '../media/3.jfif';
 
 
 const Sidebar = () => {
