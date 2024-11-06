@@ -10,16 +10,14 @@ const Tarot = () => {
       const randomIndex = Math.floor(Math.random() * tarotCards.length);
       const selectedCard = tarotCards[randomIndex];
 
-      // Avoid selecting the same card
       if (!selectedCards.includes(selectedCard)) {
         setSelectedCards((prev) => [...prev, selectedCard]);
         
-        // Check if three cards have been selected
         if (selectedCards.length === 2) {
           setMessage("Ok, that's it! Off you go!");
         }
       } else {
-        // Optionally, you can log a message or handle duplicates
+
         console.log("Card already selected. Try again.");
       }
     }
@@ -34,7 +32,6 @@ const Tarot = () => {
     <div className="content">
       <h1>Pick 3 Tarot Cards</h1>
       <div className="card-container">
-        {/* Back of the card */}
         {selectedCards.length < 3 && (
           <img 
             src="../media/tarotdeck/000_Back.jpg" 
@@ -43,7 +40,6 @@ const Tarot = () => {
           />
         )}
 
-        {/* Render selected cards */}
         {selectedCards.map((card, index) => (
           <img 
             key={index} 

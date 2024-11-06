@@ -22,6 +22,11 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
+            <a href="https://github.com/Zabandosk">
+            <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
             <a href="https://orcid.org/0000-0002-9274-0414">
             <i class="fa-brands fa-orcid"></i>
             </a>

@@ -100,9 +100,9 @@ i {
 }
 
 .card {
-  width: auto; /* Adjust size for your cards */
+  width: auto;
   height: 25rem;
-  transition: transform 1s ease; /* Smooth transition */
+  transition: transform 1s ease;
   border-radius: 10px;
 }
 
