@@ -19,11 +19,6 @@ h1 {
   text-align: center;
 }
 
-h3 {
-  text-align: center;
-  overflow-wrap: break-word;
-  width: -webkit-fill-available;
-}
 
 .maincontent {
   display: flex;
@@ -44,6 +39,12 @@ h3 {
   width: 20%; 
   height: auto;
   background-color: #1f1f1f;
+}
+
+.sidebar h3 {
+  text-align: center;
+  overflow-wrap: break-word;
+  width: -webkit-fill-available;
 }
 
 .collapse-button {
@@ -211,15 +212,10 @@ i {
 
 /**************************CV****************************/
 
-td, th {
-  padding: 8px;
-}
-
-th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: rgb(218, 201, 201);
+.cv_container {
+  display: flex;
+  background-color: #616161;
+  flex-direction: row;
 }
 
 /*********************TEST********************/
