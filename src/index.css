@@ -185,27 +185,27 @@ i {
 }
 
 
-/********************* src/Blog.css ********************/
+/********************* src/Clog.css ********************/
 
 
-.blog-container {
+.clog-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   font-family: Arial, sans-serif;
 }
 
-.blog-post {
+.clog-post {
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
 
-.blog-post h2 {
+.clog-post h2 {
   margin: 0;
 }
 
-.blog-post p {
+.clog-post p {
   line-height: 1.5;
 }
 

@@ -38,6 +38,7 @@ Reach me out if you have anything to say!
     <h1>Tasks:</h1>
     <h2>tarot ve cv sayfalarını mobile sığar şekilde tasarlamak lazım. hroizontal açılmaya haıyır</h2>
     <h2>git (hub olanı) çalış</h2>
+    <h2>büyük ekranda sayfanın uzunluğunu da sabitleyebilirim. Scrolla kaysınlar bi zahmet</h2>
     <h3>çift renk teması olabilir ama ileride </h3>
 complete basic pages:
 <li>about</li>
