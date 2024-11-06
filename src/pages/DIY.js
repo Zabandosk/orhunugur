@@ -17,6 +17,7 @@ const DIY = () => {
 <div className='color4'></div>
 <div className='color5'></div>
 </div>
+<p>z</p>
         </div>
     </Fragment>
    );

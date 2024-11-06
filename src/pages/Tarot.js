@@ -49,20 +49,23 @@ const Tarot = () => {
           />
         ))}
       </div>
-
+      <br></br>
+    <div className="tarotcontent">
+     
       {selectedCards.length < 3 ? (
         <button className="button" onClick={drawRandomCard}>
           Draw a Card
         </button>
       ) : (
-        <div>
+        <div className="tarotcontent">
           <p>{message}</p>
           <button className="button" onClick={refreshPage}>
             Refresh
           </button>
         </div>
       )}
-    <p>Source of the deck: <a href="https://commons.wikimedia.org/wiki/Category:Rider-Waite_tarot_deck_(Roses_%26_Lilies)">Rider-Waite Tarot Deck</a></p>
+      </div>
+    <p className="attribute">Source of the deck: <a href="https://commons.wikimedia.org/wiki/Category:Rider-Waite_tarot_deck_(Roses_%26_Lilies)">Rider-Waite Tarot Deck</a></p>
     </div>
   );
 };
