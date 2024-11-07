@@ -89,6 +89,7 @@ const CV = () => {
         <h2>Research Interests</h2>
         <p>Digital Humanities, Heritage Data Management, Everyday Heritage, Participatory Heritage, Personal Information Management, People's History, Usability</p>
       </section>
+      
     </div>
   
     </Fragment>
