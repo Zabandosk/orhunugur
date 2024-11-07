@@ -13,7 +13,7 @@ const CV = () => {
       <section>
       <h2>Education</h2>
           <p>Archaeology (BA). Uludağ University. Graduation Year: 2019. GPA: 3.44</p>
-          <p>MA in Information and Records Management (MA). Hacettepe University. Graduation Year: 2023. GPA: 3.86</p>
+          <p>Information and Records Management (MA). Hacettepe University. Graduation Year: 2023. GPA: 3.86</p>
       </section>
 
       <section>
@@ -25,6 +25,57 @@ const CV = () => {
       </section>
 
       <section>
+      <h2>Technical Skills</h2>
+      <div className="skills">
+        <div>
+        <h3><i className="fas fa-briefcase"></i> Office & Productivity Software</h3>
+        <ul>
+          <li>Microsoft 365 (Word, Excel, PowerPoint, Outlook)</li>
+          <li>Google Workspace (Docs, Sheets, Slides, Forms)</li>
+          <li>Microsoft Teams</li>
+          <li>Dropbox</li>
+          <li>Google Drive</li>
+          <li>SharePoint</li>
+        </ul>
+        </div>
+        <div>
+        <h3><i className="fas fa-code"></i> Programming & Web Development</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+          <li>React.js</li>
+          
+        </ul>
+        </div>
+        <div>
+        <h3><i className="fas fa-database"></i> Database & Data Management</h3>
+        <ul>
+          <li>SQL</li>
+          <li>MySQL</li>
+          <li>PostgreSQL</li>
+          <li>XML</li>
+        </ul>
+        </div>
+        <div>
+        <h3><i className="fas fa-map-marked-alt"></i> Geospatial Analysis</h3>
+        <ul>
+          <li>QGIS</li>
+          <li>ArcGIS</li>
+        </ul>
+        </div>
+        <div>
+        <h3><i className="fas fa-chart-line"></i> Data Analysis & Statistical Software</h3>
+        <ul>
+          <li>IBM SPSS Statistics</li>
+          <li>Python</li>
+          <li>KNIME Analytics</li>
+        </ul>
+        </div>
+        </div>
+        </section>
+      <section>
         <h2>Languages</h2>
         <ul>
           <li>Turkish: Native</li>
@@ -34,42 +85,12 @@ const CV = () => {
         </ul>
       </section>
 
-      <section>
-      <h2>Technical Skills</h2>
-
-      <div>
-        <h3>Office & Productivity Software</h3>
-        <p>Advanced: Microsoft Word, Excel, PowerPoint</p>
-      </div>
-
-      <div>
-        <h3>Programming & Web Development</h3>
-        <p>Competent: HTML, CSS, JavaScript, Node.js, React</p>
-      </div>
-
-      <div>
-        <h3>Database & Data Management</h3>
-        <p>Competent: MySQL, PostgreSQL, XML</p>
-      </div>
-
-      <div>
-        <h3>Geospatial Analysis</h3>
-        <p>Competent: QGIS</p>
-        <p>Working Knowledge: ArcGIS</p>
-      </div>
-
-      <div>
-        <h3>Data Analysis & Statistical Software</h3>
-        <p>Advanced: IBM SPSS Statistics</p>
-        <p>Working Knowledge: Python, KNIME Analytics</p>
-      </div>
-    </section>
-
-      <section>
+      <section className="research-interests">
         <h2>Research Interests</h2>
-        <p>Heritage Data Management, Digital Humanities, Everyday Heritage, Participatory Heritage, Personal Information Management, Usability</p>
+        <p>Digital Humanities, Heritage Data Management, Everyday Heritage, Participatory Heritage, Personal Information Management, People's History, Usability</p>
       </section>
     </div>
+  
     </Fragment>
    );
 };
