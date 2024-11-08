@@ -1,26 +1,57 @@
-import React, { Fragment } from 'react';
-
-
+import React, { Fragment, useState } from 'react';
 
 const DIY = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  const openModal = (imageSrc) => {
+    setSelectedImage(imageSrc);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedImage(null);
+  };
 
   return (
     <Fragment>
-        <div class="content">
-            <h1>DIY Heritage</h1>
-            Image Space
-<div className='colorbox'>
-  Color palette
-<div className='color1'></div>
-<div className='color2'></div>
-<div className='color3'></div>
-<div className='color4'></div>
-<div className='color5'></div>
-</div>
-<p>z</p>
+      <div className="content">
+        <h1>DIY Heritage</h1>
+        <p>Under development, soon to be shared.</p>
+        <p>Here are some screenshots from it.</p>
+        <div className="views">
+          <img
+            src="../media/tarotdeck/Wands_09.jpeg"
+            onClick={() => openModal("../media/tarotdeck/Wands_09.jpeg")}
+            alt="Screenshot"
+          />
+          <img
+            src="../media/tarotdeck/Wands_09.jpeg"
+            onClick={() => openModal("../media/tarotdeck/Wands_09.jpeg")}
+            alt="Screenshot"
+          />
+          <img
+            src="../media/tarotdeck/Wands_09.jpeg"
+            onClick={() => openModal("../media/tarotdeck/Wands_09.jpeg")}
+            alt="Screenshot"
+          />
         </div>
+      </div>
+
+      {isModalOpen && (
+        <div className="modal">
+          <div className="modal-content">
+            <span className="close" onClick={closeModal}>&times;</span>
+            <img src={selectedImage} alt="Enlarged Screenshot" />
+          </div>
+        </div>
+      )}
+
+     
     </Fragment>
-   );
+  );
 };
 
 export default DIY;
+
