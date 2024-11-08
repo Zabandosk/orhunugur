@@ -22,18 +22,13 @@ const DIY = () => {
         <p>Here are some screenshots from it.</p>
         <div className="views">
           <img
-            src="../media/tarotdeck/Wands_09.jpeg"
-            onClick={() => openModal("../media/tarotdeck/Wands_09.jpeg")}
+            src="../media/diy/ss_1.jpg"
+            onClick={() => openModal("../media/diy/ss_1.jpg")}
             alt="Screenshot"
           />
           <img
-            src="../media/tarotdeck/Wands_09.jpeg"
-            onClick={() => openModal("../media/tarotdeck/Wands_09.jpeg")}
-            alt="Screenshot"
-          />
-          <img
-            src="../media/tarotdeck/Wands_09.jpeg"
-            onClick={() => openModal("../media/tarotdeck/Wands_09.jpeg")}
+            src="../media/diy/ss_2.jpg"
+            onClick={() => openModal("../media/diy/ss_2.jpg")}
             alt="Screenshot"
           />
         </div>

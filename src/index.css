@@ -80,8 +80,6 @@ h2{
 display: none;
 }
 
-
-
 @media (max-width: 600px) {
 
   .content {
@@ -100,7 +98,7 @@ display: none;
   .sidebar.collapsed {
     position: fixed;
     width: 100%;
-height: auto;
+    height: auto;
   }
   
   .collapse-button {
@@ -117,7 +115,6 @@ height: auto;
     color: #e1e1e1;
   }
 }
-
 
 .myname {
   text-align: center;
@@ -147,7 +144,6 @@ height: auto;
 .navsocial li i:hover {
   color: white;
 }
-
 
 i {
   color: #616161;
@@ -196,8 +192,8 @@ i {
   .views img:hover {
     transform: scale(1.03);
     box-shadow: 0 0 3px 3px rgba(121, 185, 87, 0.5);
-
   }
+  
   .modal {
     position: fixed;
     top: 0;
