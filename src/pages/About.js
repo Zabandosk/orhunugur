@@ -8,6 +8,17 @@ const About = () => {
     <Fragment>
         <div class="content">
 <h1>About</h1>
+
+<div id="about">
+
+
+<img
+              src="../media/moi.jpg"
+              alt="moi"
+            />
+<div className='text'>
+
+
 <p>Hellö User! I am Orhun Uğur. I am a digital heritage specialist.
 </p>
 <p>It is hard to define myself with simple definition. I do data i might say. 
@@ -15,6 +26,8 @@ const About = () => {
 I have a BA in Archaeology and MA in Information Management and have experience in 
 Digital Heritage projects. You can check the <a href="/cv">CV page</a> for more detail. 
 <br></br>
+</p>
+
 Simply I can say that I love digital everything.
     <br></br> 
         <p>I like how we can duplicate a copy of everything from the real world to digital world.
@@ -27,6 +40,7 @@ Simply I can say that I love digital everything.
         <br></br> 
         I will be using this page to update my cv and thoughts through blogs and with recent links to other projects or collections i am working on.
         <br></br> 
+   <p>
     I love how it connects academia world wide.
     I love how it helps preserving cultural and natural heritage and giving access to them people worldwide.
     <br></br> 
@@ -34,6 +48,8 @@ Simply I can say that I love digital everything.
     <br></br> 
 
 </p>
+</div>
+</div>
         </div>
     </Fragment>
    );

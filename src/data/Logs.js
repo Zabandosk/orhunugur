@@ -34,6 +34,12 @@ const clogPosts = [
       title: 'Temporariness',
       date: '2024-11-10',
       content: 'We can leave our stones aside. Leave the gravity for some time. Pick them up again if we want.'
+    },
+    {
+      id: 7,
+      title: 'Just a thought',
+      date: '2024-11-22',
+      content: 'Why not text/rpg/html...???'
     }
 
   ];

@@ -10,6 +10,7 @@ const CV = () => {
 
       <h1>CV</h1>
       
+      <div id='cv'>
       <section>
       <h2>Education</h2>
           <p>Archaeology (BA). Uludağ University. Graduation Year: 2019. GPA: 3.44</p>
@@ -91,7 +92,7 @@ const CV = () => {
       </section>
       
     </div>
-  
+    </div>
     </Fragment>
    );
 };
