@@ -24,6 +24,11 @@ const Sidebar = () => {
                   </a>
                 </li>
                 <li>
+                  <a href="https://bsky.app/profile/orhunugur.bsky.social">
+                    <i class="fa-brands fa-bluesky"></i>
+                  </a>
+                </li>
+                <li>
                   <a href="https://www.linkedin.com/in/orhun-u%C4%9Fur-a3853218a/">
                     <i className="fa-brands fa-linkedin"></i>
                   </a>

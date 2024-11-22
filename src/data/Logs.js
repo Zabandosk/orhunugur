@@ -29,6 +29,12 @@ const clogPosts = [
       date: '2024-11-06',
       content: 'Why there is no point on the top of "i" when capital? Why cant i write i lower case? Oh, i did. İ did another thing!',
     },
+    {
+      id: 6,
+      title: 'Temporariness',
+      date: '2024-11-10',
+      content: 'We can leave our stones aside. Leave the gravity for some time. Pick them up again if we want.'
+    }
 
   ];
 

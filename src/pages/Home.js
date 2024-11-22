@@ -11,29 +11,24 @@ const Home = () => {
             
             <h1>Home</h1>
      
-<p> 
-Welcome User! 
-<br></br>
-Thanks for visiting my site. I have created this site to various reasons.
-<br></br>
-First of all, i see this place as a shop in the massive village of internet, in the middle of massive shopping malls running by big companies. 
-This is a small shop, where you can sit and drink your tea or coffee while sitting on a chair an look around.
-A heritage i want to build with my hands, hopefully preserve for future, i dont know how its going to be.
-<br></br>
-i want to write things and shared online with the world. i am a shy social media user. instead of them i have my own space to publish my thoughts.
-i want to use the <a href='/blog'>blog page</a> for this reason. 
-<br></br>
-i want to use this space for online testing platform. i am a self taught-developer. thus i make break a lot during my learning process.
-and of course i need a online space to test what i test (yes, lots of tests) in my local environment. it is possible to see bugs from time to time. in this cases i would tell you what i always tell to myself 
-'dont panic'. 
-<br></br>
-i want to use this place to link my other projects. i love learning by practising. e.g. my biggest passion these days is to develop my own heritage platform.
-i am developing my <a href='/diy-heritage'>DIY-Heritage</a> website. hopefully im thinking about new projects to add here.
-<br></br>
-I wish this space to create new conversations and possible collabration with people. I am very open for any thoughts about the website or any of the content within. 
-I am also open for job positions
-Reach me out if you have anything to say!
+            <p>
+Welcome, User! 
+<br />
+Thank you for visiting my site. 
+<br />
+I see this space as a small shop in the vast village of the internet, surrounded by large shopping malls run by big companies. This is a cozy place where you can sit, have some tea or coffee, relax, and look around. It’s a piece of heritage I want to build with my hands and hopefully preserve for the future, although I’m not sure where it will lead. 
+<br />
+I created this site for various reasons. 
+<br />
+This is a space that I can share things and thoughts online with the visitors who wants to listen. No need to be seen once in your favourite social media when you refresh, no need any algorith to push me infront of you. and I am also social media shy. Instead of sharing there, I have this space to publish my thoughts. <a href='/clog'>Captain's log</a> is where I hope to do this.
+<br />
+I also want to use this space as a testing platform. I’m a self-taught developer, which means I sometimes break things as I learn. Of course, I need an online space to test what I work on locally. So, you might see bugs from time to time! In those moments, I’ll say what I always tell myself: “Don’t panic.”
+<br />
+This site is also a place to showcase my other projects. I love learning by practicing. For instance, my biggest passion these days is to develop my own heritage platform. I’m currently working on <a href='/diy-heritage'>DIY-Heritage</a> and thinking of adding new projects here over time.
+<br />
+Finally, I hope this space will lead to new conversations and potential collaborations. I’m very open to any feedback about the website or its content, and I’m also open to job opportunities. Feel free to reach out if you have something to share!
 </p>
+
     
     <h1>Tasks:</h1>
     <h3>tarot ve cv sayfalarını mobile sığar şekilde tasarlamak lazım. hroizontal açılmaya haıyır</h3>
