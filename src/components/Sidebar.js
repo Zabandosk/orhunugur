@@ -72,11 +72,11 @@ const Sidebar = () => {
             <div className='navpages'>
             <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="/diy-heritage">DIY-Heritage</a></li>
-        <li><a href="/clog">Captain's Log</a></li>
-        <li><a href="/tarot">Pick a Card</a></li>
-        <li><a href="/cv">CV</a></li>
-        <li><a href="/about">About</a></li>
+        <li><a href="#/diy-heritage">DIY-Heritage</a></li>
+        <li><a href="#/clog">Captain's Log</a></li>
+        <li><a href="#/tarot">Pick a Card</a></li>
+        <li><a href="#/cv">CV</a></li>
+        <li><a href="#/about">About</a></li>
         </ul>
             </div>
           </div>

@@ -21,8 +21,10 @@ const CV = () => {
         <h2>Work Experience</h2>
           <p>Archaeologist-Intern. Uludağ University, Priene Excavations. Summers of 2014, 2015, and 2017.</p>
           <p>Librarian-Part Time. Uludağ University, Central Library. 2018.</p>
-          <p>Digital Archivist. British Institute at Ankara (BIAA)  - <a href='https://digitalrepository.biaa.ac.uk/'>Digital Repository</a>. Oct 2020 - Jul 2023.</p>
-          <p>Research Associate. University of Exeter, Imagining Futures Project - <a href='https://ifrepo.world/'>Digital Repository</a>. Aug 2023 - Aug 2024.</p>
+          <p>Digital Archivist. British Institute at Ankara (BIAA)  - <a href='https://digitalrepository.biaa.ac.uk/' target="_blank" 
+                  rel="noopener noreferrer">Digital Repository</a>. Oct 2020 - Jul 2023.</p>
+          <p>Research Associate. University of Exeter, Imagining Futures Project - <a href='https://ifrepo.world/' target="_blank" 
+                  rel="noopener noreferrer" >Digital Repository</a>. Aug 2023 - Aug 2024.</p>
       </section>
 
       <section>
