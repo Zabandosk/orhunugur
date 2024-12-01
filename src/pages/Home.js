@@ -10,14 +10,16 @@ const Home = () => {
         <div class="content">
             
             <h1>Home</h1>
+     <div id="home">
+
      
-            <p>
+<p>
 Welcome, User! 
 </p>
 <p>
 Thank you for visiting my site. 
 <br />
-I see this space as a small shop (dükkan) in the vast village of the internet, surrounded by large shopping malls run by big companies. This is a cozy corner where you can sit, have some tea or coffee, relax, and look around. It’s a piece of heritage I want to build with my own hands and hopefully preserve for the future, even though I’m not sure where it will lead.
+I see this space as a small shop (dükkan) in the vast village of the internet, surrounded by large shopping malls run by big companies. This is a cosy corner where you can sit, have some tea or coffee, relax, and look around. It’s a piece of heritage I want to build with my own hands and hopefully preserve for the future, even though I’m not sure where it will lead.
 <br />
 I created this site for various reasons. 
 </p>
@@ -34,7 +36,7 @@ This site is also a place to showcase my other projects. I love learning by prac
 Finally, I hope this space will lead to new conversations and potential collaborations. Whether it’s feedback on the website, discussions about shared interests, or exploring ways to work together (<a href='#/cv'>CV</a> attached, for those who need to know), I’m always open to connecting. Feel free to reach out if something sparks your interest!
 </p>
 <p>By the way, why not <a href='#/tarot'>pick a card</a> while you are here?</p>
-    
+</div>
         </div>
 
     </Fragment>

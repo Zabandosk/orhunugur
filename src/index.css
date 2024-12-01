@@ -59,6 +59,7 @@ h2{
   width: 100%;
   overflow-y: auto;
   height: 100vh;
+  min-height: auto; 
 }
 
 .content h1 {
@@ -88,13 +89,38 @@ display: none;
 }
 
 @media (max-width: 600px) {
+.maincontent {
+    min-height: auto; 
+  }
 
   .content {
     padding-right: 2rem; 
     padding-left: 2rem;
+    padding-bottom: 3rem;
     width: 100%;
     position: static;
+    min-height: auto; 
   }
+
+  #home {
+    display: block;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    padding-top: 0;
+  }
+  #about {
+    display: block;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    padding-top: 0;
+  }
+  #cv {
+    display: block;
+    padding: 1rem;
+    padding-bottom: 4rem;
+    padding-top: 0;
+  }
+
   .sidebar.open {
     position: fixed;
     width: 100%;
@@ -193,6 +219,9 @@ i{
 .navpages li:hover {
    background-color: #616161;
 }
+
+/**************************HOME****************************/
+
 
 
 /**************************DIY****************************/
@@ -384,7 +413,7 @@ i{
 /*********************ABOUT********************/
 #about {
   display: block;
-  padding: 1rem;
+  padding-bottom: 3rem;
   padding-top: 0;
 }
 
