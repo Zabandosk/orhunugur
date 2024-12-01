@@ -1,4 +1,3 @@
-// Import necessary dependencies
 import React, { Fragment } from "react";
 
 const tarotCards = [
@@ -83,8 +82,6 @@ const tarotCards = [
 ];
 
 
-
-// Optional component to display tarot cards list
 const TarotComponent = () => {
   return (
     <Fragment>
@@ -100,6 +97,5 @@ const TarotComponent = () => {
   );
 };
 
-// Export tarotCards array and TarotComponent
 export { tarotCards };
 export default TarotComponent;

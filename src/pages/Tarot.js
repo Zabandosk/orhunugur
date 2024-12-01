@@ -30,41 +30,50 @@ const Tarot = () => {
 
   return (
     <div className="content">
-      <h1>Pick 3 Tarot Cards</h1>
+      <h1>Pick a Card</h1>
       <div className="card-container">
-        {selectedCards.length < 3 && (
-          <img 
-            src="../media/tarotdeck/000_Back.jpg" 
-            alt="back" 
-            className="card back" 
-          />
-        )}
+  {selectedCards.length < 3 && (
+    <img
+      src="../media/tarotdeck/000_Back.jpg"
+      alt="back"
+      className="card back"
+    />
+  )}
 
-        {selectedCards.map((card, index) => (
-          <img 
-            key={index} 
-            src={card.image} 
-            alt={card.name} 
-            className="card front" 
-          />
-        ))}
-      </div>
-      <br></br>
+  {selectedCards.map((card, index) => (
+    <img
+      key={index}
+      src={card.image}
+      alt={card.name}
+      className="card front"
+      ref={(element) => {
+        // Ensure the last card is scrolled into view when it's added
+        if (index === selectedCards.length - 1 && element) {
+          element.scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+            inline: "center",
+          });
+        }
+      }}
+    />
+  ))}
+</div>
+<br />
+<div className="tarotcontent">
+  {selectedCards.length < 3 ? (
+    <button className="button" onClick={drawRandomCard}>
+      Draw a Card
+    </button>
+  ) : (
     <div className="tarotcontent">
-     
-      {selectedCards.length < 3 ? (
-        <button className="button" onClick={drawRandomCard}>
-          Draw a Card
-        </button>
-      ) : (
-        <div className="tarotcontent">
-          <p>{message}</p>
-          <button className="button" onClick={refreshPage}>
-            Refresh
-          </button>
-        </div>
-      )}
-      </div>
+      <p>{message}</p>
+      <button className="button" onClick={refreshPage}>
+        Refresh
+      </button>
+    </div>
+  )}
+</div>
     <p className="attribute">Source of the deck: <a href="https://commons.wikimedia.org/wiki/Category:Rider-Waite_tarot_deck_(Roses_%26_Lilies)">Rider-Waite Tarot Deck</a></p>
     </div>
   );

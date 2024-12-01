@@ -35,6 +35,13 @@ const DIY = () => {
             alt="Screenshot"
           />
           </div>
+          <div className="imgcont">
+          <img
+            src="../media/diy/ss_3.jpg"
+            onClick={() => openModal("../media/diy/ss_3.jpg")}
+            alt="Screenshot"
+          />
+          </div>
         </div>
       </div>
 

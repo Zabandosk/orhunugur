@@ -22,7 +22,8 @@ ul {
 
 li a {
   display: block;
-  padding: 1rem;
+  padding: 0.5rem;
+  padding-top: 1rem;
   margin: 0;
   font-style: normal;
   color: #e1e1e1;
@@ -179,7 +180,6 @@ i{
 
 .navpages li a {
   display: block;
-  padding: 1rem;
   margin: 0;
   font-style: normal;
   color: white;
@@ -200,7 +200,7 @@ i{
   display: flex;
   gap: 3rem;
   flex-wrap: wrap;
-  row-gap: 0rem;
+  row-gap: 2rem;
   justify-content: center;
 }
 
@@ -266,6 +266,21 @@ i{
   gap: 5rem; 
   width: 100%; 
 }
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+  }
+
+  .card {
+    width: auto;
+    height: 25rem;
+    transition: transform 1s ease;
+    border-radius: 10px;
+  }}
 
 .card {
   width: auto;
@@ -369,6 +384,7 @@ i{
 #about {
   display: block;
   padding: 1rem;
+  padding-top: 0;
 }
 
 #about img {
@@ -379,7 +395,7 @@ i{
   box-shadow: 5px 5px 50px rgba(255, 255, 255, 0.2); 
   background: linear-gradient(45deg, #616161, #e1e1e1); 
   padding: 2px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 @media (max-width: 768px) {
