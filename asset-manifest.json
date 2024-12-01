@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/orhunugur/static/css/main.f108dcce.css",
+    "main.js": "/orhunugur/static/js/main.64d56d9f.js",
+    "index.html": "/orhunugur/index.html",
+    "main.f108dcce.css.map": "/orhunugur/static/css/main.f108dcce.css.map",
+    "main.64d56d9f.js.map": "/orhunugur/static/js/main.64d56d9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f108dcce.css",
+    "static/js/main.64d56d9f.js"
+  ]
+}
