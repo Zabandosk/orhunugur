@@ -18,35 +18,23 @@ const About = () => {
             />
 <div className='text'>
 
-
-<p>Hellö User! I am Orhun Uğur. I am a digital heritage specialist.
+<p>
+I am Orhun Uğur, someone who tries to bring order to the chaos of information by managing it.
 </p>
-<p>It is hard to define myself with simple definition. I do data i might say. 
-  <br></br>
-I have a BA in Archaeology and MA in Information Management and have experience in 
-Digital Heritage projects. You can check the <a href="/cv">CV page</a> for more detail. 
-<br></br>
+<p>
+  I am a digital archaeologist and archivist with an interdisciplinary background in archaeology (BA) and information management (MA). I enjoy excavating the information of the past and today, and preserving it for the future.
 </p>
-
-Simply I can say that I love digital everything.
-    <br></br> 
-        <p>I like how we can duplicate a copy of everything from the real world to digital world.
-        And likewise everything from the digital world to real world.
-        Thank you x, y, z axis.</p>
-        <br></br> 
-        I like everything free, if possible, especially the education. 
-        Thank you accessible information sources, university datases, udemy classes And
-        a special thanks to random people who are willing to share their knowledge!
-        <br></br> 
-        I will be using this page to update my cv and thoughts through blogs and with recent links to other projects or collections i am working on.
-        <br></br> 
-   <p>
-    I love how it connects academia world wide.
-    I love how it helps preserving cultural and natural heritage and giving access to them people worldwide.
-    <br></br> 
-    I love how I can read, listen and see about peoples thoughts and discussions about any subject on social media platforms
-    <br></br> 
-
+<p>
+I value heritage in all its forms and types. If something is recognized as heritage by anyone, I also acknowledge its significance and aim to help safeguard it.
+</p>
+<p>
+I strongly support openness, participation, and DIY approaches in every part of life, especially in heritage management. Heritage is too important to be left entirely in the hands of authorities.
+</p>
+<p>
+I love learning new things and putting them into practice. Life is limited, so much to explore, curiosity is the key. Sounds like a cool motto, aye? 
+</p>
+<p>
+Finally, I want to close by thanking digital technologies. Thank you, spreadsheets, for making information easier to manage. Thank you, X, Y, and Z axes, for enabling us to create virtual copies of real-world objects and vice versa. Thank you, WWW, for connecting us all. And thanks to the countless tools and software that help us along the way.
 </p>
 </div>
 </div>

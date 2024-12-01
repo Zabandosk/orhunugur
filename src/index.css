@@ -6,7 +6,12 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   color: #e1e1e1;
-  overflow: hidden; /* Prevents scrolling on the entire page */
+  overflow: hidden; 
+}
+
+a {
+  text-decoration: none; 
+  color: #0078A8;
 }
 
 ul {
@@ -33,6 +38,7 @@ p {
 h1 {
   text-align: center;
 }
+
 h2{
   color: #616161;
 }
@@ -151,10 +157,20 @@ padding-right: 1rem;
   color: #e1e1e1;
 }
 
-i {
+i{
   color: #616161;
 }
 
+.bluesky{
+  height: 16px;
+  width: 16px;
+  fill: #616161;  
+
+}
+
+.bluesky:hover {
+  fill: #e1e1e1; 
+}
 .navpages ul {
   list-style-type: none;
   margin: 0;
@@ -361,8 +377,9 @@ i {
   margin: 0 0 1rem 1rem; 
   object-fit: cover;
   box-shadow: 5px 5px 50px rgba(255, 255, 255, 0.2); 
-  background: linear-gradient(45deg, #6a3d31, #feb47b); 
+  background: linear-gradient(45deg, #616161, #e1e1e1); 
   padding: 2px;
+  margin-top: 20px;
 }
 
 @media (max-width: 768px) {

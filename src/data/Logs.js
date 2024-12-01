@@ -40,7 +40,20 @@ const clogPosts = [
       title: 'Just a thought',
       date: '2024-11-22',
       content: 'Why not text/rpg/html...???'
+    },
+    {
+      id: 8,
+      title: 'Smiley',
+      date: '2024-11-23',
+      content: 'Gpt sent me its first message with smiley :)'
+    },
+    {
+      id: 9,
+      title: 'Candle art',
+      date: '2024-11-23',
+      content: 'Drop some candle on a surface intentionally or by mistake. Carve it in your prefered temperature'
     }
+    
 
   ];
 
