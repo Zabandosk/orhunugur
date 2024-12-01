@@ -70,14 +70,26 @@ const Sidebar = () => {
             <hr />
 
             <div className='navpages'>
-            <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="#/diy-heritage">DIY-Heritage</a></li>
-        <li><a href="#/clog">Captain's Log</a></li>
-        <li><a href="#/tarot">Pick a Card</a></li>
-        <li><a href="#/cv">CV</a></li>
-        <li><a href="#/about">About</a></li>
-        </ul>
+              <ul>
+                <li>
+                  <a href="/" onClick={toggleSidebar}>Home</a>
+                </li>
+                <li>
+                  <a href="#/diy-heritage" onClick={toggleSidebar}>DIY-Heritage</a>
+                </li>
+                <li>
+                  <a href="#/clog" onClick={toggleSidebar}>Captain's Log</a>
+                </li>
+                <li>
+                  <a href="#/tarot" onClick={toggleSidebar}>Pick a Card</a>
+                </li>
+                <li>
+                  <a href="#/cv" onClick={toggleSidebar}>CV</a>
+                </li>
+                <li>
+                  <a href="#/about" onClick={toggleSidebar}>About</a>
+                </li>
+              </ul>
             </div>
           </div>
         )}
